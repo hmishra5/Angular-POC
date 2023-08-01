@@ -1,0 +1,34 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.btn__insuredDashboard{
+  border: none;
+  color: #6E27C5!important;
+  font-family: Arimo,Arial,sans-serif;
+  font-weight: 700;
+  background: none !important;
+  box-shadow: none;
+  float: none!important;
+  padding: 0px;
+  cursor: pointer;
+}
+
+.btn__PAP {
+  background-color: #6E27C5;
+  border-color: #6E27C5;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 13px 39px;
+  outline: none;
+}
+
+.btn__PAP__CANCEL{
+  color: #6e27c5;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}

@@ -1,0 +1,19 @@
+@import url('https://unpkg.com/ag-grid-community@28.2.0/styles/ag-grid.css');
+@import url('https://unpkg.com/ag-grid-community@28.2.0/styles/ag-theme-alpine.css');
+
+.reviewer__header{
+  margin-left: 6%;
+}
+
+.btn__reviewerDashboard{
+  text-decoration: none;
+  border: none;
+    color: #6E27C5!important;
+    font-family: Arimo,Arial,sans-serif;
+    font-weight: 700;
+    background: none !important;
+    box-shadow: none;
+    float: none!important;
+    padding: 0px;
+    cursor: pointer;
+}

@@ -1,0 +1,25 @@
+<div class="row mt-2">
+  <div class="col-4">
+    <h2 class="reviewer__header mt-2">Reviewer Dashboard</h2>
+  </div>
+  <div class="col-6">  </div>
+  <div class="col-2 mt-2">
+    <a class="btn__reviewerDashboard btn__contact" routerLink='/insured-dashboard'>Back to Home Page</a>
+  </div>
+</div>
+
+  <ag-grid-angular
+        style="width: auto; height: 90%; margin-left: 2%; margin-right: 2%; margin-bottom: 2%;"
+        class="ag-theme-alpine"
+        [rowData]="reviewerData"
+        [defaultColDef]="defaultColDef"
+        [columnDefs]="columnDefs"
+        [enableCellTextSelection]="true"
+        [animateRows]="true"
+        [pagination]="pagination"
+        [paginationPageSize]="paginationPageSize"
+  >
+</ag-grid-angular>
+<div>
+  <br/>
+</div>

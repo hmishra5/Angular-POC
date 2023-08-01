@@ -1,0 +1,45 @@
+@import url('https://unpkg.com/ag-grid-community@28.2.0/styles/ag-grid.css');
+@import url('https://unpkg.com/ag-grid-community@28.2.0/styles/ag-theme-alpine.css');
+
+
+.insured__header{
+  margin-left: 6%;
+}
+
+.modal{
+  --bs-modal-footer-border-color: none;
+  --bs-modal-header-border-color: none;
+}
+
+.required__star{
+  color: red;
+}
+
+.btn__contact{
+  margin-top: 7%;
+  float:right;
+  line-height: 48px;
+}
+
+.emailIcon,.telePhone{
+    display: inline-block;
+    width: 45px;
+    height: 30px;
+    vertical-align: middle;
+    color: #6E27C5;
+}
+
+
+.contactUsText{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.contactUsText:hover{
+  color:#6E27C5
+}
+
+.btn__PAP:hover{
+  background-color: #6E27C5;
+}
