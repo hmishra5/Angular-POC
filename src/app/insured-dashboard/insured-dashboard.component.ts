@@ -117,7 +117,7 @@ export class InsuredDashboardComponent {
           "AgencyCode": "Z01315",
           "ClientID": "",
           "HotStateIndicator": "No ",
-          "UnderwriterName": "Ann  Pilla",
+          "UnderwriterName": "Ann  Pillas",
           "UnderwriterPhone": "6235802037",
           "AnnualPrem": "400",
           "CompanionPolicy": "Yes",
