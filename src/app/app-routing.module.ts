@@ -8,6 +8,7 @@ const routes: Routes = [
   { path: 'insured-dashboard/:id', component:  InsuredDashboardComponent},
   { path: 'reviewer-dashboard', component:  ReviewerDashboardComponent},
   { path: 'reviewer-dashboard/:id', component:  ReviewerDashboardComponent},
+  { path: 'qc-csr-dashboard', component:  ReviewerDashboardComponent},
 ];
 
 @NgModule({
