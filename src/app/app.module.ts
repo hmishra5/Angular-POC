@@ -10,23 +10,30 @@ import { AgGridModule } from 'ag-grid-angular';
 import { ButtonRendererComponent } from './button-renderer/button-renderer.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ReviewerDashboardLinkComponent } from './reviewer-dashboard/reviewer-dashboard-link/reviewer-dashboard-link.component';
-
+import { InsuredDashboardHeaderComponent } from './insured-dashboard/insured-dashboard-header/insured-dashboard-header.component';
+import { ReviewerDashboardHeaderComponent } from './reviewer-dashboard/reviewer-dashboard-header/reviewer-dashboard-header.component';
+import { FormsModule } from '@angular/forms';
+import {HttpClientModule} from '@angular/common/http'
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    //InsuredDashboardComponent,
+    InsuredDashboardComponent,
     ReviewerDashboardComponent,
     ButtonRendererComponent,
     ReviewerDashboardLinkComponent,
+    InsuredDashboardHeaderComponent,
+    ReviewerDashboardHeaderComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     AgGridModule,
-    NgbModule
+    NgbModule,
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

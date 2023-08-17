@@ -1,14 +1,14 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { InsuredDashboardComponent } from './insured-dashboard/insured-dashboard.component'
-import { ReviewerDashboardComponent } from './reviewer-dashboard/reviewer-dashboard.component'
+import { InsuredDashboardHeaderComponent } from './insured-dashboard/insured-dashboard-header/insured-dashboard-header.component'
+import {ReviewerDashboardHeaderComponent  } from './reviewer-dashboard/reviewer-dashboard-header/reviewer-dashboard-header.component'
 
 const routes: Routes = [
-  { path: 'insured-dashboard',  component: InsuredDashboardComponent },
-  { path: 'insured-dashboard/:id', component:  InsuredDashboardComponent},
-  { path: 'reviewer-dashboard', component:  ReviewerDashboardComponent},
-  { path: 'reviewer-dashboard/:id', component:  ReviewerDashboardComponent},
-  { path: 'qc-csr-dashboard', component:  ReviewerDashboardComponent},
+  { path: 'insured-dashboard',  component: InsuredDashboardHeaderComponent },
+  { path: 'insured-dashboard/:id', component:  InsuredDashboardHeaderComponent},
+  { path: 'reviewer-dashboard', component:  ReviewerDashboardHeaderComponent},
+  { path: 'reviewer-dashboard/:id', component:  ReviewerDashboardHeaderComponent},
+  { path: 'qc-csr-dashboard', component:  ReviewerDashboardHeaderComponent},
 ];
 
 @NgModule({
